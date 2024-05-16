@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "@babel/runtime": "^7.24.5",
+    "@babel/runtime-corejs3": "^7.24.5"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.24.5",
+    "@babel/core": "^7.24.5",
+    "@babel/plugin-transform-runtime": "^7.24.3",
+    "@babel/preset-env": "^7.24.5"
+  },
+  "scripts": {
+    "dev": "npx babel main.js -o compiled.js"
+  }
+}
