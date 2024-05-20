@@ -1,0 +1,15 @@
+{
+  "devDependencies": {
+    "@babel/cli": "^7.24.5",
+    "@babel/core": "^7.24.5",
+    "@babel/generator": "^7.24.5",
+    "@babel/parser": "^7.24.5",
+    "@babel/preset-env": "^7.24.5",
+    "@babel/template": "^7.24.0",
+    "@babel/traverse": "^7.24.5",
+    "@babel/types": "^7.24.5"
+  },
+  "script": {
+    "dev": "npx babel a.js -o b.js"
+  }
+}
