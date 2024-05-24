@@ -1,1 +1,3 @@
-var fn = (num) => num + 2;
+function square(n) {
+  return n * n;
+}

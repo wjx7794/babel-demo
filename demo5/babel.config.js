@@ -1,4 +1,6 @@
+const customPlugin = require('./plugin.js');
+
 module.exports = {
   presets: ['@babel/env'],
-  plugins: [],
+  plugins: [[customPlugin, { a: 1 }]],
 };

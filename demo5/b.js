@@ -1,5 +1,4 @@
-'use strict';
+"use strict";
 
-var fn = function fn(num) {
-  return num + 2;
-};
+var _square2 = 1;
+var _square = 1;

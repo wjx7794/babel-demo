@@ -1,6 +1,6 @@
-import * as t from '@babel/types';
+// import * as t from '@babel/types';
 
-const customPlugin = function (options) {
+const customPlugin = function ({ types: t }, options) {
   return {
     // 访问器
     visitor: {
